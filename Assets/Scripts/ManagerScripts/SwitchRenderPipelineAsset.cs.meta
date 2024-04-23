@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 8bc2e82bda26bd146a41d1375a40dd9c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - rendererData: {fileID: 11400000, guid: fe07ccedf03b9da44925c72f4bf0c644, type: 2}
+  - skybox: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  - pictureVisionSkybox: {fileID: 2100000, guid: fd6ba1e5a92a97647b7862c6b8621a0a,
+      type: 2}
+  - forestVisionSkybox: {fileID: 2100000, guid: c4ae37b52e9281c49b4a9ea5e0962c8a,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

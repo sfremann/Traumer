@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: daf65e69f0960cf4b9d36a0cbeda1492
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - secondRing: {instanceID: 0}
+  - holdingHandsSilhouette: {fileID: 7550418632810542705, guid: 7548b18279c10bd498356d0370fe024f,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

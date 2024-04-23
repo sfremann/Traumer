@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5089160375466278485
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5089160375466278483}
+  - component: {fileID: 5089160375466278482}
+  - component: {fileID: 4181478514918634100}
+  - component: {fileID: 963779537844290271}
+  - component: {fileID: 6441239396563105813}
+  m_Layer: 0
+  m_Name: RenderingManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5089160375466278483
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5089160375466278485}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5089160375466278482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5089160375466278485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bc2e82bda26bd146a41d1375a40dd9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rendererData: {fileID: 11400000, guid: fe07ccedf03b9da44925c72f4bf0c644, type: 2}
+  skybox: {fileID: 2100000, guid: c4ae37b52e9281c49b4a9ea5e0962c8a, type: 2}
+  fog: 1
+  fogDensity: 0.015
+  fogColor: {r: 0.5764706, g: 0.4745098, b: 0.54901963, a: 0}
+  ambientLightValue: 0.3
+  pictureVisionSkybox: {fileID: 2100000, guid: fd6ba1e5a92a97647b7862c6b8621a0a, type: 2}
+  pictureVisionLightValue: 1
+  forestVisionSkybox: {fileID: 2100000, guid: 6eecb3bb77b3f7a43a504fceda3b0b5f, type: 2}
+  forestVisionLightValue: 0.05
+  forestVisionFogDensity: 0.65
+  forestVisionFogColor: {r: 0.0627451, g: 0.05882353, b: 0.101960786, a: 1}
+  bathroomFogDensity: 0.18
+  bathroomFogColor: {r: 0.14901961, g: 0.20784314, b: 0.29411766, a: 0}
+  transitionTime: 4
+  creditsSkybox: {fileID: 2100000, guid: c4ae37b52e9281c49b4a9ea5e0962c8a, type: 2}
+  creditsFogDensity: 0
+  outline: OutlineSobel
+  useOutline: 0
+  pencil: PencilEffect
+  usePencil: 0
+--- !u!114 &4181478514918634100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5089160375466278485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: a204d7ab20f31164aa6a1996e01a47ec, type: 2}
+--- !u!114 &963779537844290271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5089160375466278485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33974b0ca225e7d40a7ac9642df2ced9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  launchSeqTime: 3
+  redressCameraTime: 1.5
+  dialogueEffectTime: 1.5
+  forestTransitionTime: 4
+  bathroomTransitionTime: 6
+  bedroomTransitionTime: 5
+  creditsTransitionTime: 3
+--- !u!114 &6441239396563105813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5089160375466278485}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cab52735ddcba64cad21e49c51e7daf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rendererData: {fileID: 11400000, guid: fe07ccedf03b9da44925c72f4bf0c644, type: 2}
+  directionalLight: {fileID: 0}
+  pictureFrame: {fileID: 0}
+  blitMat: {fileID: 2100000, guid: 69e1caaa0c752d84f8bcc01c3171b271, type: 2}
+  transitionPeriod: 1

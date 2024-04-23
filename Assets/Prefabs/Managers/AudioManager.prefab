@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8591072712536458324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8591072712536458327}
+  - component: {fileID: 8591072712536458326}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8591072712536458327
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8591072712536458324}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8591072712536458326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8591072712536458324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02b141f23cadf15459f518f6024dbf23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: OpenDoor
+    clip: {fileID: 8300000, guid: 75fcefbdb7bcff5418bb958de86b321d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: CloseDoor
+    clip: {fileID: 8300000, guid: 98475ecb0b7a7f24f92ab89a291d806a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: IndoorFootsteps
+    clip: {fileID: 8300000, guid: 76234281150b41f46a8d2f8aafa69de6, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: SingleHeartBeating
+    clip: {fileID: 8300000, guid: 7a6753bb2f9b9dd448832be0da2fe31d, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: LightSound
+    clip: {fileID: 8300000, guid: 7d2123329a4da424eafadfe72406530b, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: LightBuzzing
+    clip: {fileID: 8300000, guid: 942a3a9b6f5b72741b63a6bd91f50748, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: OutdoorFootsteps
+    clip: {fileID: 8300000, guid: 885e10ee9aeb46c4caf1f0fd6d6f7d27, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: WhiteNoise
+    clip: {fileID: 8300000, guid: 3ff02bc145ff3d1418e4fbf6fa1224e3, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: PhoneRinging
+    clip: {fileID: 8300000, guid: 67e702787c025d548aba7fedfa160f40, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: UseSound
+    clip: {fileID: 0}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: PowerDown
+    clip: {fileID: 8300000, guid: 61079ffe945c6474db26aa04ecb7279e, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: PowerUp
+    clip: {fileID: 8300000, guid: 27c34026e5119554992a8949e6d039a7, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: ForestSounds
+    clip: {fileID: 8300000, guid: 05e280fef2090f8488513df1dbf8f9fa, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: Breathing
+    clip: {fileID: 8300000, guid: 8277ec6da1539cc4894d17558be4ff0b, type: 3}
+    volume: 0.4
+    pitch: 0.25
+    loop: 1
+    playOnAwake: 1
+    source: {fileID: 0}
+  - name: ForestPlayer
+    clip: {fileID: 8300000, guid: 7767fc7961695e942a5e255944026d33, type: 3}
+    volume: 0.15
+    pitch: 1
+    loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: Underwater
+    clip: {fileID: 8300000, guid: 6d18f7cd7af99f440b8cf8948abb561a, type: 3}
+    volume: 0.05
+    pitch: 1
+    loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: LastRoomSong
+    clip: {fileID: 8300000, guid: f8416e0e2b61bef46bd674eb79271c09, type: 3}
+    volume: 0.05
+    pitch: 1
+    loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: Thunderstorm
+    clip: {fileID: 8300000, guid: af156a569a529eb4caeebc61e90688a4, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
+  defaultTransitionTime: 0.2

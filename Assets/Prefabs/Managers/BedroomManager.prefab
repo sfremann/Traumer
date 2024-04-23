@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6480868563356786315
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9219062265053435485}
+  - component: {fileID: 5964780520588828754}
+  m_Layer: 0
+  m_Name: BedroomManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9219062265053435485
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6480868563356786315}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5964780520588828754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6480868563356786315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1220edd90df4cee47937a28efe3c843b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dancingLights: {fileID: 0}
+  credits: {fileID: 0}
+  letterText: {fileID: 0}
+  cursif_child: {fileID: 11400000, guid: 852e1614d140c1f48b5e7976290572c4, type: 2}
+  cursif_simple: {fileID: 11400000, guid: d343e16ba9a558942b8d623c0cb1bfdd, type: 2}
+  cursif_crazy: {fileID: 11400000, guid: b557f64169c2c7e40b4bf246d0a53abe, type: 2}
+  typingTime: 0.075
+  displayTime: 2
+  transitionToCreditsTime: 4

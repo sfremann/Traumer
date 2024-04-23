@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 17c523647f4df494384d5b5678afd068
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - singleHandSilhouette: {fileID: 91188821460210930, guid: 60ab51aab57013841a0f043e19a548a5,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
